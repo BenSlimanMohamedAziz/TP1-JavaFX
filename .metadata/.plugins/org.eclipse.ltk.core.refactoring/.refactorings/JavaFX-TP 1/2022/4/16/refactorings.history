@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;PremiereFenetre&apos; to &apos;Ex1_PremiereFenetre&apos;&#x0D;&#x0A;- Original project: &apos;JavaFX-TP 1&apos;&#x0D;&#x0A;- Original element: &apos;JavaFX-TP 1/src/PremiereFenetre&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaFX-TP 1/src/Ex1_PremiereFenetre&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;PremiereFenetre&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;PremiereFenetre" name="Ex1_PremiereFenetre" qualified="false" references="true" stamp="1649762494336" textual="false" version="1.0"/>
+</session>

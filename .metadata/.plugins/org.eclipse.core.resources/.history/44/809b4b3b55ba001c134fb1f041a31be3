@@ -1,0 +1,41 @@
+package Ex1_FormeGeometrique;
+
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Line;
+import javafx.scene.shape.Rectangle;
+import javafx.stage.Stage;
+
+public class FormeGeometrique extends Application {
+
+	 @Override
+	 public void start(Stage primaryStage) {
+      Rectangle r=new Rectangle();
+	  Circle c = new Circle();
+      Line l=new Line();
+
+	 Group root = new Group();
+	r.setX(70);
+	r.setY(50);
+	r.setWidth(100);
+	r.setHeight(100);
+	
+	 c.setCenterX(100);
+	 c.setCenterY(80);
+	 c.setRadius(20);
+	 root.getChildren().add(c);
+	 root.getChildren().add(r);
+
+	 Scene scene = new Scene(root, 300, 250, Color.WHITE);
+	 
+	 primaryStage.setTitle("Ma première fenêtre");
+	 primaryStage.setScene(scene);
+	 primaryStage.show();
+	 }
+	 public static void main(String[] args) {
+	 launch(args);
+	 }
+	}

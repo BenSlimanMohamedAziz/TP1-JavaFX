@@ -1,0 +1,30 @@
+package PremiereFenetre;
+
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
+import javafx.scene.control.Button;
+
+public class PremiereFenetre extends Application {
+	 @Override
+	 public void start(Stage primaryStage) {
+	 Group root = new Group();
+	 
+	 Scene scene = new Scene(root, 300, 250, Color.BLACK);
+	 
+	 primaryStage.setTitle("Premiere Fenetre");
+
+     Button btn = new Button();
+     StackPane layout = new StackPane();
+     layout.getChildren().add(btn);
+     
+	 primaryStage.setTitle("Ma première fenêtre");
+	 primaryStage.setScene(scene);
+	 primaryStage.show();
+	 }
+	 public static void main(String[] args) {
+	 launch(args);
+	 }
+	}

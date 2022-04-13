@@ -1,0 +1,39 @@
+package Ex2_FormulaireAuthentification;
+
+import java.awt.Font;
+import java.awt.Label;
+import java.awt.TextField;
+
+import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.PasswordField;
+import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+public class FormulaireAuthentification extends Application {
+	
+	@Override
+	public void start(Stage primaryStage) {
+	
+		GridPane grid = new GridPane();
+		grid.setAlignment(Pos.CENTER);
+		grid.setHgap(10);
+		grid.setVgap(10);
+		grid.setPadding(new Insets(25, 25, 25, 25));
+		Scene scene = new Scene(grid, 300, 275);
+		primaryStage.setScene(scene);
+
+			primaryStage.setTitle("JavaFX Welcome");
+			 primaryStage.show();
+	}
+	
+	 public static void main(String[] args) {
+		 launch(args);
+		 }
+	}
